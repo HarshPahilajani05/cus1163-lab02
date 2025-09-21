@@ -1,0 +1,4 @@
+Analysis:
+1. It's clear that the library method makes fewer system calls than the system call method.
+2. The difference between fopen() and open() is that open() is a system call, while fopen() is a library function.
+3. The library method makes different system calls since it only calls the kernel when needed.
